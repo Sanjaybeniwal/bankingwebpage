@@ -1,0 +1,66 @@
+/* --------------- START:: Register Page Style  -----------------*/
+
+.login-container {
+    height: calc(100vh - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-content {
+    padding: 16px 24px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 2px 4px #ccc;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  
+    input {
+      width: 100%;
+    }
+  
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+
+
+    label {
+      letter-spacing: 0.2px;
+      font-weight: 500;
+    }
+  
+    h3 {
+      margin: 0px;
+    }
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      width: 100%;
+    }
+  
+    div:last-child {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+
+    }
+
+    span{
+        font-size: 16px;
+        color: #4F1C51;
+        cursor: pointer;
+      }
+  }
+  
+  /* --------------- END:: Register Page Style  -----------------*/
+  

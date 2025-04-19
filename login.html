@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <title>Login | Demo Website</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    
+
+<!-- <nav>
+  <h3 id="logo">SANJAY</h3>
+  <div class="menu">
+    <a href="register.html">
+        <button class="secondary">Sign up</button>
+      </a>
+  </div>
+</nav> -->
+
+<div class="login-container">
+   <div class="login-content">
+     <h3>Login</h3>
+  <form id="loginForm">
+     <div>
+       <label for="email">Email</label>
+       <input placeholder="Enter email" type="email" id="email" name="email"/>
+     </div>
+
+     <div>
+       <label for="password">Password</label>
+       <input placeholder="Enter password" type="text" id="password" name="password"/>
+     </div>
+
+     <div>
+       <button class="primary" type="submit">Submit</button>
+     </div>
+    </form>
+     <span>Don't have an account?<a href="register.html">Sing Up</a></span>
+   </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

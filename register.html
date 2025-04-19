@@ -11,13 +11,17 @@
 <nav>
   <h3 id="logo">SANJAY</h3>
   <div class="menu">
-    <button class="primary">Login</button>
+    <a href="login.html">
+        <button class="primary">Login</button>
+    </a>
+
   </div>
 </nav>
 
 <div class="registration-container">
    <div class="registration-content">
      <h3>User Registration</h3>
+     <form id="register">
      <div>
        <label for="username">Username</label>
        <input placeholder="Username" type="text" id="username" name="username"/>
@@ -30,13 +34,13 @@
 
      <div>
        <label for="password">Password</label>
-       <input placeholder="Enter password" type="text" id="password" name="password"/>
+       <input placeholder="Enter password" type="password" id="password" name="password"/>
      </div>
 
      <div>
-       <button class="primary" disabled>Submit</button>
+       <button class="primary" type="submit">Submit</button>
      </div>
-
+    </form>
    </div>
 </div>
 
